@@ -1,0 +1,9 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]  # Uvicorn adalah server untuk FastAPI
+pandas
+numpy
+joblib
+scikit-learn==1.3.0  # Wajib cocok dengan versi training
+pydantic
