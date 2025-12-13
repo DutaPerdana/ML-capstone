@@ -5,6 +5,6 @@ uvicorn # Uvicorn adalah server untuk FastAPI
 pandas
 numpy
 joblib
-scikit-learn  # Wajib cocok dengan versi training
+scikit-learn==1.6.1  # Wajib cocok dengan versi training
 pydantic
 requests
