@@ -34,15 +34,15 @@ class CustomerData(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "plan_type": "Postpaid",
-                "device_brand": "Oppo",
-                "avg_data_usage_gb": 3.0,
-                "pct_video_usage": 0.8,
-                "avg_call_duration": 50.0,
-                "sms_freq": 40,
-                "monthly_spend": 80000,
+                 "plan_type": "Postpaid", 
+                "device_brand": "Samsung",
+                "avg_data_usage_gb": 8.0,    
+                "pct_video_usage": 0.4,     
+                "avg_call_duration": 2.0,    
+                "sms_freq": 2,
+                "monthly_spend": 75000,     
                 "topup_freq": 1,
-                "travel_score": 0.95,
+                "travel_score": 0.0,
                 "complaint_count": 0
             }
         }
